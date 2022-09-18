@@ -1,5 +1,5 @@
-from django.contrib.auth.models import User
 from django.urls import include, path
+from rest_framework import routers
 from restapi import views
 
 router = routers.DefaultRouter()
